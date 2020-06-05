@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $("form#favoriteSeason").submit(function(event) {
         const season = $("#season").val();
+        const genre = $("#genre").val();
 
         if (season === "spring") {
             $("#output").text("It sounds like you enjoy lovely weather! Coding may not be for you.");
@@ -14,6 +15,6 @@ $(document).ready(function() {
         } else {
             $("#output").text("Coding is probably right up your alley. I would begin with Python!");
         }
-        event.preventDefault();3
-    })
+        event.preventDefault();
+    });
 });
