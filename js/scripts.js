@@ -1,19 +1,44 @@
 $(document).ready(function() {
-    $("form#favoriteSeason").submit(function(event) {
-        const season = $("#season").val();
-
-        if (season === "spring") {
-            $("#output").text("It sounds like you enjoy lovely weather! Coding may not be for you.");
+    $("form#yourHorrorscope").submit(function(event) {
+        const horrorscope = $("#horrorscope").val();
         
-        } else if (season === "summer") {
-            $("#output").text("It sounds like you enjoy hot weather! Coding may not be for you.");
 
-        } else if (season === "fall") {
-            $("#output").text("Fall can be great! But I think that Ruby would be well suited for you!");
+    if (horrorscope === "aries") {
+        $("#output").text("Based on your responses, it looks as if you would excell at Ruby!");
 
-        } else {
-            $("#output").text("Coding is probably right up your alley. I would begin with Python!");
+    } else if (horrorscope === "taurus") {
+        $("#output").text("Based on your responses, it looks as if you would excell at C Sharp!");
+
+    } else if (horrorscope === "gemini") {
+        $("#output").text("Based on your responses, it looks as if you would excell at Javascript!");
+
+    } else if (horrorscope === "cancer") {
+        $("#output").text("Based on your responses, it looks as if you would excell at Go!");
+
+    } else if (horrorscope === "leo") {
+        $("#output").text("Based on your responses, it looks as if you would excell at Python!");
+
+    } else if (horrorscope === "virgo") {
+        $("#output").text("Based on your responses, it looks as if you would excell at Rust!");
+
+    } else if (horrorscope === "libra") {
+        $("#output").text("Based on your responses, it looks as if you would excell at Swift!");
+
+    } else if (horrorscope === "scorpio") {
+        $("#output").text("Based on your responses, it looks as if you would excell at Go!");
+
+    } else if (horrorscope === "sagittarius") {
+        $("#output").text("Based on your responses, it looks as if you would excell at Javascript!");
+
+    } else if (horrorscope === "capricorn") {
+        $("#output").text("Based on your responses, it looks as if you would excell at C Sharp!");
+        
+    } else if (horrorscope === "aquarius") {
+            $("#output").text("Based on your responses, it looks as if you would excell at Ruby!");
+
+    } else {
+        $("#output").text("Based on your responses, it looks as if you would excell at Python!");
         }
         event.preventDefault();
-    })
+    });
 });
