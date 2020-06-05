@@ -14,7 +14,6 @@ $(document).ready(function() {
         } else {
             $("#output").text("Coding is probably right up your alley. I would begin with Python!");
         }
-
         event.preventDefault();
-    });
+    })
 });
