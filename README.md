@@ -1,24 +1,24 @@
-# _PROJECT TITLE_
+# _Programming Language Selector_
 
-#### _WHAT THIS PROJECT DOES, DATE, 2020_
+#### _Not only learn about different programming languages,but learn which is best for you! June 6th, 2020_
 
 #### By _**Chris Brauch**_
 
 ## Description
 
-The purpose of this project is to FILL IN RELEVANT INFORMATION HERE.
+The purpose of this project is to not only inform the reader of different programming languages and how each works, but also will suggest to the user which one would be optimal for them to begin learning!
 
 ## Setup/Installation Requirements
 
-* _Clone this repository on https://github.com/cmbrauch/TITLE.git
+* _Clone this repository on https://github.com/cmbrauch/programming-selector.git
 * _Open it in VS Code_
-* _Run the command open index.html or go to cmbrauch.github.io/TITLE
+* _Run the command open index.html
 
 ## Known Bugs
 
-_No bugs are known at this time_
+_While the scripts.js work in both VScode preview as well as opening index.html directly from the desktop, the code seems to not run when viewed using an html reader from github_
 
-_OR ARE THERE?_
+_Only the selection of Spring, Summer, Fall, and Winter will return the user with an input suggestion on which programming language they should pursue.
 
 ## Support and contact details
 
