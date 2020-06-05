@@ -19,7 +19,7 @@ $(document).ready(function() {
 });
     
 $(document).ready(function() {
-    $("form#questions").submit(function(event) {
+    $("form#answerQuestions").submit(function(event) {
         const genre = $("#genre").val();
 
             if (genre === "comedy") {
