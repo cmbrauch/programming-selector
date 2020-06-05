@@ -1,7 +1,10 @@
 .center {
   margin: auto;
-  width: 50%;
+  width: 100%;
   border: 3px solid black;
-  padding: 10px;
+  padding: 1px;
   text-align: center;
+  color: white;
+  background-image: url("https://www.syfy.com/sites/syfy/files/styles/1200x680_hero/public/wire/legacy/computers-text-matrix-computer-code.jpg");
+  background-color: #cccccc;
 }
