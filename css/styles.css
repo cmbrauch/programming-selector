@@ -8,3 +8,11 @@
   background-image: url("https://www.syfy.com/sites/syfy/files/styles/1200x680_hero/public/wire/legacy/computers-text-matrix-computer-code.jpg");
   background-color: #cccccc;
 }
+
+.div1{ 
+  border: 3px solid black;
+  background-color: lightblue;
+  padding-top: 45px;
+  padding-right: 30px;
+  padding-bottom: 45px;
+  padding-left: 80px;
