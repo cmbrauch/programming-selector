@@ -3,17 +3,18 @@ $(document).ready(function() {
         const season = $("#season").val();
 
         if (season === "spring") {
-            $("#output").text("It sounds like you enjoy lovely weather! Coding may not be for you.");
+            $("#output").text("Magic 8 ball says: You would enjoy Go!");
         
         } else if (season === "summer") {
-            $("#output").text("It sounds like you enjoy hot weather! Coding may not be for you.");
+            $("#output").text("It looks as though studying Rust is in your future!");
 
         } else if (season === "fall") {
-            $("#output").text("Fall can be great! But I think that Ruby would be well suited for you!");
+            $("#output").text("Apparently based on your choices, you should already be efficient at Ruby!");
 
         } else {
             $("#output").text("Coding is probably right up your alley. I would begin with Python!");
         }
+
         event.preventDefault();
     });
 });
