@@ -23,3 +23,38 @@ body {
   padding-bottom: 45px;
   padding-left: 80px;
 }
+
+.div2{
+  border: 3px solid black;
+  background-color: lightsteelblue;
+  padding-top: 45px;
+  padding-right: 30px;
+  padding-bottom: 45 px;
+  padding-left: 40 px;
+}
+
+#season-showing {
+  display: none;
+}
+
+#final-hiding {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: black;
+}
+
+.clickable:hover {
+  text-decoration: solid;
+}
+
+.newClickable {
+  cursor: pointer;
+  color: black;
+}
+
+.newClickable:hover {
+  text-decoration: solid;
+}
