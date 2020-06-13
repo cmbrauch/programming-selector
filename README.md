@@ -1,6 +1,6 @@
 # _Programming Language Selector_
 
-#### _Not only learn about different programming languages, but learn which is best for you! June 6th, 2020, updated June 9th, 2020_
+#### _Not only learn about different programming languages, but learn which is best for you! June 6th, 2020, updated June 12th, 2020_
 
 #### By _**Chris Brauch**_
 
@@ -20,8 +20,9 @@ _While the scripts.js work in both VScode preview as well as opening index.html 
 
 _Only the selection of Spring, Summer, Fall, and Winter will return the user with an input suggestion on which programming language they should pursue._**CORRECTED
 
-_Issues when toggling the second question for the user also showing the third question, in spite of an
-attempt at a separate div ID.
+_Issues when toggling the second question for the user also showing the third question, in spite of an attempt at a separate div ID.**CORRECTED
+
+_Issues when generating a calculated output on a recommended programming language to study. It appears to be an issue with my if-else if, as its stopping automatically at the first else if.
 
 ## Support and contact details
 

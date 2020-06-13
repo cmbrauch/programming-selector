@@ -56,53 +56,76 @@
         to decide which was preferred. So, he enlisted the help of psychologist-extraordinairre, Good Will Hunting, to devise a simple 
         yet efficient way to help in programming language selction! This is a modern-day version, of course.</p>
     </div>
-    <form id="yourHorrorscope">
-        <label for="horrorscope">What is your Zodiac sign?</label>
-        <select id="horrorscope">
-            <option value="aries">Aries</option>
-            <option value="taurus">Taurus</option>
-            <option value="gemini">Gemini</option>
-            <option value="cancer">Cancer</option>
-            <option value="leo">Leo</option>
-            <option value="virgo">Virgo</option>
-            <option value="libra">Libra</option>
-            <option value="scorpio">Scorpio</option>
-            <option value="sagittarius">Sagittarius</option>
-            <option value="capricorn">Capricorn</option>
-            <option value="aquarius">Aquarius</option>
-            <option value="pisces">Pisces</option>
-        </select><br>
-        <button type="submit" class="btn btn-danger">Submit</button><br>
-        <span id="output"></span></form><br>
-    <div id="season-hiding">
-            <p>By selecting your horrorscope, it has narrowed down the possibilities of the most optimal language 
-                for you to learn. <span class="clickable">Go ahead and click here to see the next possible choices.</span></p>
-    </div> 
-    <div id="season-showing">
-    <form id="favoriteSeason">
-        <label for="season">What is your favorite season?</label>
-        <select id="season">
-            <option value="spring">Spring</option>
-            <option value="summer">Summer</option>
-            <option value="fall">Fall</option>
-            <option value="winter">Winter</option>
-        </select><br>
-        <button type="submit" class="btn btn-danger">Submit</button><br>
-        <span id="input"></span></form><br>
-        <p><span class="newClickable">The selection of your favorite season has narrowed down the field by 50%!</span></p>
-    </div>
-    <div id="final-hiding">
-    <form id="finalQuestion">
-        <label for="question">What do you prefer?</label>
-        <select id="question">
-            <option value="sunrises">Sunrises</option>
-            <option value="sunsets">Sunsets</option>
-            <option value="neither">I don't like either!</option>
-        </select><br>
-        <button type="submit" class="btn btn-danger">Submit</button><br>
-        <span id="exput"></span></form><br>
+    <form id="user_survey">
+      <div class="form-group">
+        <p>Which Zodiac signs are you most compatible with?</p>
+        <input type="checkbox" name="horrorscope" value="Aries">Aries
+        <input type="checkbox" name="horrorscope" value="Taurus">Taurus
+        <input type="checkbox" name="horrorscope" value="Gemini">Gemini
+        <input type="checkbox" name="horrorscope" value="Cancer">Cancer<br>
+        <input type="checkbox" name="horrorscope" value="Leo">Leo
+        <input type="checkbox" name="horrorscope" value="Virgo">Virgo
+        <input type="checkbox" name="horrorscope" value="Libra">Libra
+        <input type="checkbox" name="horrorscope" value="Scorpio">Scorpio<br>
+        <input type="checkbox" name="horrorscope" value="Sagittarius">Sagittarius
+        <input type="checkbox" name="horrorscope" value="Capricorn">Capricorn
+        <input type="checkbox" name="horrorscope" value="Aquarius">Aquarius
+        <input type="checkbox" name="horrorscope" value="Pisces">Pisces<br>
+      </div>
+      <div class="form-group">
+        <p>What are your favorite seasons?</p>
+        <input type="checkbox" name="season" value="Spring">Spring
+        <input type="checkbox" name="season" value="Summer">Summer<br>
+        <input type="checkbox" name="season" value="Fall">Fall
+        <input type="checkbox" name="season" value="Winter">Winter<br>
+      </div>
+      <div class="form-group">
+        <p>What are your favorite movie genres?</p>
+        <input type="checkbox" name="genre" value="Comedy">Comedy
+        <input type="checkbox" name="genre" value="Drama">Drama<br>
+        <input type="checkbox" name="genre" value="Suspense">Suspense
+        <input type="checkbox" name="genre" value="Romance">Romance<br>
+      </div>
+      <div class="form-group">
+        <p>What are your favorite types of pets?</p>
+        <input type="checkbox" name="pets" value="Dogs">Dogs
+        <input type="checkbox" name="pets" value="Cats">Cats<br>
+        <input type="checkbox" name="pets" value="Chinchilla">Chinchillas
+        <input type="checkbox" name="pets" value="Other">Other<br>
+      </div>
+      <div class="form-group">
+        <p>What are your favorite types of Ice Cream?</p>
+        <input type="checkbox" name="iceCream" value="Vanilla">Vanilla
+        <input type="checkbox" name="iceCream" value="Chocolate">Chocolate<br>
+        <input type="checkbox" name="iceCream" value="Rocky Road">Rocky Road
+        <input type="checkbox" name="iceCream" value="Cookie Dough">Cookie Dough<br>
+      </div>  
+      <button type="submit">Submit Survey</button>
     </form>
-    </div>  
+    <div class="final">
+      <span id="horrorscope-responses">
+        <p><b>The Zodiac signs you feel most compatible with are:</b></p>
+      </span>
+      <br>
+      <span id="season-responses">
+        <p><b>Your favorite seasons are:</b></p>
+      </span>
+      <br>
+      <span id="genre-responses">
+        <p><b>Your favorite genres of movies are:</b></p>
+      </span>
+      <br>
+      <span id="pets-responses">
+        <p><b>Your favorite household pets are:</b></p>
+      </span> 
+      <br>
+      <span id="icecream-responses">
+        <p><b>Your favorite Ice cream flavors are:</b></p>
+      </span>
+      <br>
+      <span id="output"><b></b></span>
+      <br>
+    </div>
 </body>
 </html>
 
